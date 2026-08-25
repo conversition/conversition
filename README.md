@@ -45,7 +45,7 @@
 
 ## 🚀 项目
 
-### 🤖 AgentX 智能体应用平台
+### 🤖 [AgentX 智能体应用平台](https://github.com/conversition/AgentX)
 **基于大模型 + MCP 协议的 Agent 构建与对话运行平台** · Java 17 · Spring Boot · LangChain · PostgreSQL · Next.js · Docker
 
 - DDD 四层架构(基础设施 / 应用 / 核心业务 / 领域),保障高可维护性
