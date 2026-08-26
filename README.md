@@ -60,7 +60,7 @@
 - 提示词分层缓存(L0-L6)+ 1024 token 前缀缓存,降低推理成本
 - node vm 沙箱隔离 + 钩子化扩展 API,插件热接入无需重启
 
-### 📊 Boss 直聘数据采集与智能简历生成
+### 📊 [Boss 直聘数据采集与智能简历生成](https://github.com/conversition/boss-job-analyzer)
 **岗位数据爬虫 + BI 分析 + LLM 简历生成** · Python · Playwright · MySQL · Redis
 
 - 采集管线:代理切换、断点续爬、内存/Redis 双队列去重
