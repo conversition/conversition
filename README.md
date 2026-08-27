@@ -67,7 +67,7 @@
 - ECharts 交互式 BI 报表,量化招聘市场感知
 - 「采集 → 清洗 → 分析 → 报告 → 生成 → 导出」完整工作流
 
-### ⚡ 电力负荷预测(全国竞赛)
+### ⚡ [电力负荷预测(全国竞赛)](https://github.com/conversition/energy-load-forecast)
 **D+1 全天 96 点电价预测 + 充放电计划优化** · Python · LightGBM · GBDT
 
 - 十万级多源时序数据清洗、特征工程与剪枝
