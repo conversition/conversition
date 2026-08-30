@@ -73,6 +73,18 @@
 - 十万级多源时序数据清洗、特征工程与剪枝
 - GBDT + LightGBM 融合模型,以真实业务收益而非 RMSE 选优
 
+### 🍺 [酒馆提示词 Agent](https://github.com/conversition/jiuguan)
+**下一代 SillyTavern 角色扮演平台:本地优先 + 提示词架构驱动** · TypeScript · pnpm Monorepo · LLM
+
+- 世界书语义激活(向量召回 + 多信号融合分级)、记忆衰减(Ebbinghaus 遗忘曲线)、分镜编排
+- 101+ commits,提交规范,变更日志式 README
+
+### 🎨 [ComfyUI LLM 对话节点](https://github.com/conversition/comfyui-llm-chat-node)
+**基于 NewBie LLM Formatter 二次开发** · Python · ComfyUI · MCP
+
+- 新增三合一 LLM Direct Chat(Direct / NewBie XML / Anima)+ OpenCode AI 网关节点
+- Agent 模式:多轮 MCP 标签搜索;prompt_agent 精简重构
+
 ## 💼 经历
 
 **美林数据** — 主数据实施实习生 / 解决方案支持(驻场项目)
