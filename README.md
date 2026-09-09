@@ -43,48 +43,35 @@
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-## 🚀 项目
+## 🚀 项目矩阵
 
-### 🤖 [AgentX 智能体应用平台](https://github.com/conversition/AgentX)
-**基于大模型 + MCP 协议的 Agent 构建与对话运行平台** · Java 17 · Spring Boot · LangChain · PostgreSQL · Next.js · Docker
+### 🤖 AI Agent 工程
 
-- DDD 四层架构(基础设施 / 应用 / 核心业务 / 领域),保障高可维护性
-- 落地计费、任务、会话、记忆、RAG 核心模块,打通完整 Agent 开发闭环
-- 解决上下文爆炸、子 Agent 无限递归、Tool 调用逻辑冲突等智能体工程难题
+| 项目 | 定位 | 核心证据 |
+|---|---|---|
+| [AgentX](https://github.com/conversition/AgentX) | Agent 构建平台(Java 17 · Spring Boot · DDD) | 753 Java 类 · 自研状态机工作流 · [二开证据](https://github.com/conversition/AgentX/blob/master/docs/REFACTOR-NOTES.md) |
+| [酒馆提示词 Agent](https://github.com/conversition/jiuguan) | SillyTavern 剧本引擎(Typescript · pnpm Monorepo) | 100+ commits · 世界书语义激活 · 记忆衰减 |
+| [ComfyUI LLM 节点](https://github.com/conversition/comfyui-llm-chat-node) | ComfyUI LLM 对话节点二次开发(Python · MCP) | 三合一 Direct Chat · OpenCode 网关 · [CHANGELOG](https://github.com/conversition/comfyui-llm-chat-node/blob/master/CHANGELOG.md) |
+| AI 叙事对话 Agent | 端到端叙事引擎(Python · TS · RAG) | 单回合 1 次模型往返 · 混合检索 ·【整理中,待开源】 |
 
-### 🎭 AI 叙事对话 Agent
-**端到端 Agent 系统,CLI / Web 双端** · Python · TypeScript · Monorepo · Node.js · React
+### 🗄 数据治理与解决方案
 
-- 7 大 Tool 模块 + Zod 契约(OpenAI Tools Schema + 运行校验),单回合最多 1 次模型往返
-- RAG 增强:BM25 + 向量检索 + RRF 融合 + 置信度门限 + 快照恢复,缓解幻觉
-- 提示词分层缓存(L0-L6)+ 1024 token 前缀缓存,降低推理成本
-- node vm 沙箱隔离 + 钩子化扩展 API,插件热接入无需重启
+| 项目 | 定位 | 状态 |
+|---|---|---|
+| 主数据治理 Agent | 制造业主数据实习延伸 POC(规则引擎 + LLM 映射) | 【规划中】 |
+| 解决方案案例库 | 政府/组织级交付方法论案例(脱敏) | 【规划中】 |
 
-### 📊 [Boss 直聘数据采集与智能简历生成](https://github.com/conversition/boss-job-analyzer)
-**岗位数据爬虫 + BI 分析 + LLM 简历生成** · Python · Playwright · MySQL · Redis
+### ⚡ 数据分析与竞赛
 
-- 采集管线:代理切换、断点续爬、内存/Redis 双队列去重
-- ECharts 交互式 BI 报表,量化招聘市场感知
-- 「采集 → 清洗 → 分析 → 报告 → 生成 → 导出」完整工作流
+| 项目 | 定位 | 核心证据 |
+|---|---|---|
+| [电力负荷预测](https://github.com/conversition/energy-load-forecast) | 竞赛:96 点电价预测 + 储能策略 | 收益导向评估 · 分位数回归 · [RESULTS](https://github.com/conversition/energy-load-forecast/blob/master/docs/RESULTS.md) |
 
-### ⚡ [电力负荷预测(全国竞赛)](https://github.com/conversition/energy-load-forecast)
-**D+1 全天 96 点电价预测 + 充放电计划优化** · Python · LightGBM · GBDT
+### 📊 求职市场分析
 
-- 十万级多源时序数据清洗、特征工程与剪枝
-- GBDT + LightGBM 融合模型,以真实业务收益而非 RMSE 选优
-
-### 🍺 [酒馆提示词 Agent](https://github.com/conversition/jiuguan)
-**下一代 SillyTavern 角色扮演平台:本地优先 + 提示词架构驱动** · TypeScript · pnpm Monorepo · LLM
-
-- 世界书语义激活(向量召回 + 多信号融合分级)、记忆衰减(Ebbinghaus 遗忘曲线)、分镜编排
-- 101+ commits,提交规范,变更日志式 README
-
-### 🎨 [ComfyUI LLM 对话节点](https://github.com/conversition/comfyui-llm-chat-node)
-**基于 NewBie LLM Formatter 二次开发** · Python · ComfyUI · MCP
-
-- 新增三合一 LLM Direct Chat(Direct / NewBie XML / Anima)+ OpenCode AI 网关节点
-- Agent 模式:多轮 MCP 标签搜索;prompt_agent 精简重构
-
+| 项目 | 定位 | 核心证据 |
+|---|---|---|
+| [Boss 直聘分析](https://github.com/conversition/boss-job-analyzer) | 采集 → 清洗 → 技能基准 → LLM 简历 | 55 组任务 · 4,234 条职位 · 98.8% 可统计薪资 |
 ## 💼 经历
 
 **美林数据** — 主数据实施实习生 / 解决方案支持(驻场项目)
