@@ -50,9 +50,8 @@
 | 项目 | 定位 | 核心证据 |
 |---|---|---|
 | [AgentX](https://github.com/conversition/AgentX) | Agent 构建平台(Java 17 · Spring Boot · DDD) | 753 Java 类 · 自研状态机工作流 · [二开证据](https://github.com/conversition/AgentX/blob/master/docs/REFACTOR-NOTES.md) |
-| [酒馆提示词 Agent](https://github.com/conversition/jiuguan) | SillyTavern 剧本引擎(Typescript · pnpm Monorepo) | 100+ commits · 世界书语义激活 · 记忆衰减 |
+| [AI 叙事引擎「酒馆」](https://github.com/conversition/jiuguan) | 从 0 到 1 叙事 Agent(Typescript Monorepo · 7 核心包 · CLI/Web) | 195 项回归 · 单回合 1 次模型往返 · 混合检索 RAG |
 | [ComfyUI LLM 节点](https://github.com/conversition/comfyui-llm-chat-node) | ComfyUI LLM 对话节点二次开发(Python · MCP) | 三合一 Direct Chat · OpenCode 网关 · [CHANGELOG](https://github.com/conversition/comfyui-llm-chat-node/blob/master/CHANGELOG.md) |
-| AI 叙事对话 Agent | 端到端叙事引擎(Python · TS · RAG) | 单回合 1 次模型往返 · 混合检索 ·【整理中,待开源】 |
 
 ### 🗄 数据治理与解决方案
 
